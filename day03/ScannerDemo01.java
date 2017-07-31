@@ -1,15 +1,15 @@
 import java.util.Scanner;
-public class ScannerDemo1 {
+public class ScannerDemo01 {
 	public static void main(String[] args) {
-		//´´½¨ScannerÒıÓÃÀàĞÍµÄ±äÁ¿
+		//åˆ›å»ºScannerå¼•ç”¨ç±»å‹çš„å˜é‡
 		Scanner sc = new Scanner(System.in);
-		//»ñÈ¡Êı×Ö
-		System.out.println("ÇëÊäÈëÒ»¸öÊı×Ö");
+		//è·å–æ•°å­—
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—");
 		int n = sc.nextInt();
-		System.out.println("nµÄÖµÎª" + n);
-		//»ñÈ¡×Ö·û´®
-		System.out.println("ÇëÊäÈëÒ»¸ö×Ö·û´®");
+		System.out.println("nçš„å€¼ä¸º" + n);
+		//è·å–å­—ç¬¦ä¸²
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²");
 		String str = sc.next();
-		System.out.println("strµÄÖµÎª" + str);
+		System.out.println("strçš„å€¼ä¸º" + str);
 	}
 }		
