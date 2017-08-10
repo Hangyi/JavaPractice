@@ -17,7 +17,7 @@ public class GuestNumber{
 				System.out.println("sorry,您猜小了！继续下一次循环");
 			}
 			
-			System.out.println("----请输入您猜的数字：----");
+			System.out.println("----请输b    入您猜的数字：----");
 			enterNumber = sc.nextInt();
 			
 		}
